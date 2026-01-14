@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "PDF Split Translator",
+  "version": "1.0",
+  "description": "Dịch file PDF với giao diện chia đôi màn hình",
+  "permissions": ["activeTab", "scripting"],
+  "host_permissions": ["<all_urls>"],
+  
+  "action": {
+    "default_title": "Mở trình dịch PDF"
+  },
+
+  "background": {
+    "service_worker": "background.js"
+  },
+
+  "web_accessible_resources": [
+    {
+      "resources": ["web/*", "build/*"],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
