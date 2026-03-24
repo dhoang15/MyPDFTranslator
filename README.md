@@ -8,7 +8,7 @@ Extension Chrome giúp dịch file PDF sang Tiếng Việt (và nhiều ngôn ng
 - **Auto Debounce:** Tối ưu hóa API để không bị Google chặn request.
 - **Multi-language:** Hỗ trợ dịch sang nhiều ngôn ngữ khác nhau.
 
-## 🛠 Cách cài đặt (Install)
+## Cách cài đặt (Install)
 Do đây là bản Developer, bạn cần cài đặt thủ công:
 
 1. Tải toàn bộ Code về máy (Download ZIP và giải nén).
